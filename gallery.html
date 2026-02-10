@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Sagacious Global Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/SGSlogo.png" alt="SGS Logo" class="logo-img">
+                <div class="brand-text">
+                    <span class="brand-name">Sagacious Global Services</span>
+                    <span class="brand-tagline">Advanced POS Solutions</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>Explore Our POS Systems & Installations</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <div class="gallery-filters text-center mb-4">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="products">Products</button>
+                <button class="filter-btn" data-filter="installations">Installations</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid row g-4">
+                <!-- Product Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <img src="images/Android POS Terminal.jpg" alt="Android POS Terminal">
+                        <div class="gallery-overlay">
+                            <h4>Android POS Terminal</h4>
+                            <p>11.6" HD Touch Display System</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <img src="images/Handheld POS Device.jpg" alt="Handheld POS Device">
+                        <div class="gallery-overlay">
+                            <h4>Handheld POS Device</h4>
+                            <p>Portable Billing Solution</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <img src="images/POS with Weighing Scale.jpg" alt="POS with Weighing Scale">
+                        <div class="gallery-overlay">
+                            <h4>POS with Weighing Scale</h4>
+                            <p>Integrated Weighing Solution</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <img src="images/Billing Printer + Software.jpg" alt="Billing Printer">
+                        <div class="gallery-overlay">
+                            <h4>Billing Printer + Software</h4>
+                            <p>Complete Billing Solution</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Installation Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="installations">
+                    <div class="gallery-card">
+                        <img src="images/installation-1.jpg" alt="Retail Store Installation">
+                        <div class="gallery-overlay">
+                            <h4>Retail Store Setup</h4>
+                            <p>Complete POS Installation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="installations">
+                    <div class="gallery-card">
+                        <img src="images/installation-2.jpg" alt="Grocery Store Installation">
+                        <div class="gallery-overlay">
+                            <h4>Grocery Store Setup</h4>
+                            <p>Weighing Scale POS System</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="installations">
+                    <div class="gallery-card">
+                        <img src="images/installation-3.jpg" alt="Restaurant Installation">
+                        <div class="gallery-overlay">
+                            <h4>Restaurant Setup</h4>
+                            <p>Multi-Terminal Configuration</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <img src="images/training-1.jpg" alt="Training Session">
+                        <div class="gallery-overlay">
+                            <h4>Training Session</h4>
+                            <p>Staff Training Program</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <img src="images/demo-event.jpg" alt="Product Demo">
+                        <div class="gallery-overlay">
+                            <h4>Product Demo</h4>
+                            <p>Live Demonstration Event</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <img src="images/accessories.jpg" alt="POS Accessories">
+                        <div class="gallery-overlay">
+                            <h4>POS Accessories</h4>
+                            <p>Barcode Scanners & More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="installations">
+                    <div class="gallery-card">
+                        <img src="images/kirana-setup.jpg" alt="Kirana Shop Setup">
+                        <div class="gallery-overlay">
+                            <h4>Kirana Shop Setup</h4>
+                            <p>Small Business Solution</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="installations">
+                    <div class="gallery-card">
+                        <img src="images/pharmacy-setup.jpg" alt="Pharmacy Installation">
+                        <div class="gallery-overlay">
+                            <h4>Pharmacy Installation</h4>
+                            <p>Healthcare Retail Solution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Product Demonstrations</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="images/video-thumb-1.jpg" alt="POS System Demo">
+                            <div class="play-button">
+                                <i class="bi bi-play-circle-fill"></i>
+                            </div>
+                        </div>
+                        <h4>Android POS Terminal Overview</h4>
+                        <p>Complete walkthrough of features and functionality</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="images/video-thumb-2.jpg" alt="Installation Guide">
+                            <div class="play-button">
+                                <i class="bi bi-play-circle-fill"></i>
+                            </div>
+                        </div>
+                        <h4>Installation & Setup Guide</h4>
+                        <p>Step-by-step installation process demonstration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials with Images -->
+    <section class="testimonials-gallery py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Happy Customers</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="customer-image">
+                            <img src="images/customer-1.jpg" alt="Customer 1">
+                        </div>
+                        <p class="testimonial-text">"Excellent POS system! Easy to use and great support from the team."</p>
+                        <h5>Rajesh Kumar</h5>
+                        <p class="customer-business">Grocery Store, Ranchi</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="customer-image">
+                            <img src="images/customer-2.jpg" alt="Customer 2">
+                        </div>
+                        <p class="testimonial-text">"Best investment for my retail business. Highly recommend Sagacious!"</p>
+                        <h5>Priya Sharma</h5>
+                        <p class="customer-business">Fashion Boutique, Jamshedpur</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="customer-image">
+                            <img src="images/customer-3.jpg" alt="Customer 3">
+                        </div>
+                        <p class="testimonial-text">"Professional service and quality products. Very satisfied with the purchase."</p>
+                        <h5>Amit Verma</h5>
+                        <p class="customer-business">Electronics Store, Dhanbad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <img src="images/SGSlogo.png" alt="SGS Logo" class="footer-logo">
+                        <h4>Sagacious Global Services</h4>
+                        <p>Advanced POS Solutions</p>
+                    </div>
+                    <p class="footer-text">Transforming retail businesses with cutting-edge POS technology and exceptional service.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">Contact Information</h5>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Ward No-45, First Floor, Near Jain Mandir, Doranda, Ranchi-834002</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>+91 9835439197</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span>Irfan.parvez@sgsglobal.co.in</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sagacious Global Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
