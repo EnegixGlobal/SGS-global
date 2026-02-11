@@ -287,7 +287,8 @@ a {
 .feature-icon {
     width: 80px;
     height: 80px;
-    background: var(--gradient-1);
+    /* background: var(--gradient-1); */
+    background-color: #f47d06;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -425,7 +426,7 @@ a {
 .product-price {
     font-size: 2rem;
     font-weight: 800;
-    color: var(--secondary-color);
+    color: black;
     margin-bottom: 1rem;
 }
 
